@@ -73,10 +73,8 @@ If none is true, video is only permitted after source, date, context, rights, qu
 - Breaking label, three-line headline, red highlight shape, TezScroll logo, date, and all other design elements must sit above it.
 - Delete every previous foreground and background media element before inserting the replacement.
 - Never crop the source image or video.
-- Lock the aspect ratio and scale the complete media proportionally to the 1080 x 1350 page.
-- For a 4:5 asset, use Width 1080 px and Height 1350 px.
-- Align Left and Top; verify X 0 px, Y 0 px and rotation 0 degrees.
-- Fill the frame without borders or distortion while retaining the complete source.
+- Match the approved Canva reference exactly: Width 1080 px, Height 1350 px, X 0 px, Y 317 px, rotation 0 degrees, Ratio unlocked.
+- Do not use Canva's Crop control. Keep the white headline area visible; the media begins below it, fills the full width, and extends behind the date/logo overlays to the bottom boundary.
 - Open Position -> Layers and verify the order before export.
 
 ## Caption structure

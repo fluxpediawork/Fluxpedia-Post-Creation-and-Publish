@@ -30,9 +30,8 @@
 - In Canva, keep the selected video or image at the bottom of the layer stack. Breaking label, headline, red highlight, logo, date, and every other design element must remain above the media.
 - Remove all old foreground and background media before placing the replacement. Never leave old footage hidden underneath the new asset.
 - Never crop an image or video to fit the frame.
-- Open Position -> Arrange, lock Ratio, and scale the complete media proportionally to the 1080 x 1350 page.
-- For a 4:5 source, set Width to 1080 px and confirm Height becomes 1350 px.
-- Use Align to page -> Left and Top. Confirm X = 0 px, Y = 0 px, Rotate = 0 degrees.
+- Open Position -> Arrange and use the approved reference values: Width 1080 px, Height 1350 px, X = 0 px, Y = 317 px, Rotate = 0 degrees, Ratio unlocked.
+- Do not use Canva's Crop control. The media must fill the page width, start below the white headline area, and extend behind the lower overlays to the page boundary.
 - Open Position -> Layers and confirm the media is immediately above Background and below all design overlays.
 
 ## Close the learning loop

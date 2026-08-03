@@ -24,7 +24,7 @@ This preference changes story selection, not the accuracy standard.
 ## Canva media framing
 
 - Never crop a source image or video.
-- Preserve the complete asset by locking its aspect ratio and scaling it to the page dimensions.
-- The standard TezScroll page is 1080 x 1350. A 4:5 source should therefore be Width 1080 px and Height 1350 px.
-- Align the scaled asset Left and Top so X = 0 px and Y = 0 px, with rotation at 0 degrees.
+- Use the user-approved Canva reference placement: Width 1080 px, Height 1350 px, X = 0 px, Y = 317 px, Rotate = 0 degrees.
+- Keep Ratio unlocked for this reference placement. Do not use Canva's Crop control; size the clip and move it down to preserve the white headline area.
+- The video fills the full page width, begins below the headline area, and continues behind the date/logo overlays to the bottom page boundary.
 - In Layers, keep the asset immediately above Background and below all text, branding, date, logo and highlight elements.
