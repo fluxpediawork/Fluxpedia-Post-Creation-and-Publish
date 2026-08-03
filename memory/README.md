@@ -25,3 +25,5 @@ This folder is the durable operating memory for the publishing workflow. It stor
 Story records live in `data/stories/`. The canonical structure is `data/story-record-template.json`.
 
 User workflow preferences live in `memory/editorial-preferences.md`. A supplied link selects the lead but never converts an unsupported claim into a verified fact.
+
+Canva's official Windows shortcuts and TezScroll-specific editing safeguards live in `memory/canva-keyboard-shortcuts.md`.
