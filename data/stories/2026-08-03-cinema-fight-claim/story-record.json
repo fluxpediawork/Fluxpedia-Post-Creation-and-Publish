@@ -27,7 +27,7 @@
     "rotateDegrees": 0,
     "placementReference": "media starts below white headline area and extends behind date/logo overlays to the bottom boundary",
     "headlineLayout": { "lines": 3, "strictNoWrap": true, "alignment": "centre", "widthPx": 894.9, "heightPx": 155, "xPx": 92.5, "yPx": 229, "fontSize": 36.4, "bold": true, "rotateDegrees": 0 },
-    "redHighlightShape": { "targetLine": 1, "widthPx": 655, "heightPx": 49.4, "xPx": 212.5, "yPx": 229, "color": "#c42222", "rotateDegrees": 0, "fitRule": "center behind the highlighted text with modest side padding" },
+    "redHighlightShape": { "targetLine": 1, "widthPx": 864, "heightPx": 53.4, "xPx": 108, "yPx": 229, "color": "#c42222", "rotateDegrees": 0, "fitRule": "cover the complete first-line text with small, even side padding and remain horizontally centered" },
     "headlineColors": { "line1": "#ffffff", "line2": "#000000", "line3": "#000000", "rule": "all text overlapping the red highlight must be white" },
     "mediaImmediatelyAboveBackground": true,
     "headlineUpdated": true,

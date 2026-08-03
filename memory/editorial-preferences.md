@@ -35,6 +35,7 @@ This preference changes story selection, not the accuracy standard.
 - Keep internal text alignment centred and centre the complete headline text box to the page.
 - The current approved headline box is Width 894.9 px, Height 155 px, X = 92.5 px, Y = 229 px, Rotate = 0 degrees, with 36.4 pt bold text.
 - Do not move other elements while correcting headline fit or alignment.
-- Fit the existing red highlight shape to the selected main-line text width with modest side padding, then centre it behind that line.
+- Fit the existing red highlight shape behind the complete selected main-line text, including small and even padding on both sides, then centre it to the page.
 - Every part of the headline that overlaps the red shape must be white (`#ffffff`); headline text outside the shape remains black (`#000000`).
-- For this approved reference, the main line is line 1 and the shape is Width 655 px, Height 49.4 px, X = 212.5 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
+- Confirm the selected headline reports mixed text colours `White and Black` in Canva before finishing.
+- For this user-corrected reference, the main line is line 1 and the shape is Width 864 px, Height 53.4 px, X = 108 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
