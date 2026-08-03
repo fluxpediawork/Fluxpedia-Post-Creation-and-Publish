@@ -51,3 +51,12 @@ This preference changes story selection, not the accuracy standard.
 - Every part of the headline that overlaps the red shape must be white (`#ffffff`); headline text outside the shape remains black (`#000000`).
 - Confirm the selected headline reports mixed text colours `White and Black` in Canva before finishing.
 - For this user-corrected reference, the main line is line 1 and the shape is Width 864 px, Height 53.4 px, X = 108 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
+
+## Canva layer-selection workflow
+
+- Apply this workflow to both image and video posts.
+- Press `Alt + 1` to open Position → Layers, then select only the exact layer that needs editing.
+- Never group or ungroup template elements during routine post creation.
+- Replace each headline line separately so line 1 retains white styling and lines 2–3 retain black styling.
+- Do not select or modify the full canvas when changing only the headline.
+- The maintained Windows shortcut reference is `memory/canva-keyboard-shortcuts.md`.
