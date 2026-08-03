@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "story": "",
+  "source": "",
+  "updatedAt": "",
+  "folder": "",
+  "mediaDecision": "video-allowed-after-checks",
+  "flags": { "minor": false, "blood": false, "sexual": false, "selfharm": false },
+  "headline": "",
+  "caption": "",
+  "lesson": "",
+  "active": "research",
+  "progress": 0,
+  "checks": {},
+  "research": { "query": "", "primaryUrl": "", "corroboratingUrls": [], "rejectedLeads": [], "location": "", "incidentDate": "", "credit": "" },
+  "media": { "sourceFilename": "", "generatedImagePath": "", "finalExportPath": "", "sha256": "" },
+  "canva": { "projectUrl": "", "mediaAtBottom": false, "brandingAboveMedia": false, "exportVerified": false },
+  "trello": { "cardUrl": "", "list": "On Posting", "completed": false },
+  "meta": { "facebookUrl": "", "instagramUrl": "", "publishedAt": "", "verified": false }
+}

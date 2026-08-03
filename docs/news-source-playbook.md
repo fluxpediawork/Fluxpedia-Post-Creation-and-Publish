@@ -67,6 +67,14 @@ If none is true, video is only permitted after source, date, context, rights, qu
 - Line 3: consequence or public relevance.
 - Direct and attention-grabbing, but never more dramatic than the verified facts.
 
+## Canva layer structure
+
+- The new video or image must be the bottom media layer, matching the approved visual reference.
+- Breaking label, three-line headline, red highlight shape, TezScroll logo, date, and all other design elements must sit above it.
+- Delete every previous foreground and background media element before inserting the replacement.
+- Fill the frame without borders, distortion, or cropping away the central action.
+- Open Position -> Layers and verify the order before export.
+
 ## Caption structure
 
 1. What happened, who was involved, and where.

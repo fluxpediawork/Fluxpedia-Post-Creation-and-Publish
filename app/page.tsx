@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 const stages = [
   { id: "research", n: "01", title: "Research", hint: "Current, corroborated and clearly sourced", tasks: ["News is from today's cycle", "Location and people are verified", "A second reputable source corroborates it", "Sensitivity gate is completed", "Visual or illustration matches the incident", "Original credit is recorded"] },
   { id: "media", n: "02", title: "Media & folder", hint: "One story, one organized workspace", tasks: ["Story folder created", "Correct video or generated-image route used", "Highest-quality permitted asset saved", "Original source remains unchanged", "Media opens correctly", "Final export filename is clear"] },
-  { id: "canva", n: "03", title: "Canva", hint: "Replace content, preserve the design", tasks: ["Old foreground media removed", "Old background media removed", "New media fills the frame", "Existing date element updated", "Existing headline element updated", "Only the key phrase is highlighted", "Playback and layer order checked"] },
+  { id: "canva", n: "03", title: "Canva", hint: "Replace content, preserve the design", tasks: ["Old foreground media removed", "Old background media removed", "New media fills the frame", "Video or image is at the bottom of the layer stack", "All branding and text layers remain above media", "Existing date element updated", "Existing headline element updated", "Only the key phrase is highlighted", "Playback and layer order checked"] },
   { id: "trello", n: "04", title: "Trello", hint: "Prepare in On Posting only", tasks: ["Card is in On Posting", "Correct final export attached", "TezScroll and Post labels added", "FluxPedia member added", "Due date is today", "Complete caption and disclaimers added"] },
   { id: "meta", n: "05", title: "Publish", hint: "Verify first, close out second", tasks: ["TezScroll / tezscroll selected", "Matching Trello media uploaded", "Matching Trello caption pasted", "Facebook and Instagram previews checked", "Published item verified", "Trello card marked complete", "Card moved to Completed"] },
 ];
@@ -21,21 +21,23 @@ export default function Home() {
   const [flags, setFlags] = useState<Checks>({});
   const [active, setActive] = useState("research");
   const [ready, setReady] = useState(false);
+  const [lesson, setLesson] = useState("");
+  const [syncState, setSyncState] = useState<"idle"|"syncing"|"saved"|"error">("idle");
 
   useEffect(() => {
     const saved = localStorage.getItem("tezscroll-workspace");
     if (saved) {
       try {
         const data = JSON.parse(saved);
-        setStory(data.story || ""); setSource(data.source || ""); setHeadline(data.headline || "\n\n"); setCaption(data.caption || ""); setChecks(data.checks || {}); setFlags(data.flags || {}); setActive(data.active || "research");
+        setStory(data.story || ""); setSource(data.source || ""); setHeadline(data.headline || "\n\n"); setCaption(data.caption || ""); setChecks(data.checks || {}); setFlags(data.flags || {}); setLesson(data.lesson || ""); setActive(data.active || "research");
       } catch { /* start clean */ }
     }
     setReady(true);
   }, []);
 
   useEffect(() => {
-    if (ready) localStorage.setItem("tezscroll-workspace", JSON.stringify({ story, source, headline, caption, checks, flags, active }));
-  }, [story, source, headline, caption, checks, flags, active, ready]);
+    if (ready) localStorage.setItem("tezscroll-workspace", JSON.stringify({ story, source, headline, caption, checks, flags, lesson, active }));
+  }, [story, source, headline, caption, checks, flags, lesson, active, ready]);
 
   const allTasks = stages.flatMap(s => s.tasks.map((_, i) => `${s.id}-${i}`));
   const done = allTasks.filter(k => checks[k]).length;
@@ -50,13 +52,23 @@ export default function Home() {
 
   function reset() {
     if (!confirm("Start a new story? This clears the current workspace.")) return;
-    setStory(""); setSource(""); setHeadline("\n\n"); setCaption(""); setChecks({}); setFlags({}); setActive("research");
+    setStory(""); setSource(""); setHeadline("\n\n"); setCaption(""); setChecks({}); setFlags({}); setLesson(""); setActive("research"); setSyncState("idle");
+  }
+
+  async function syncToGitHub() {
+    if (!story.trim()) { alert("Add a story name before syncing."); return; }
+    setSyncState("syncing");
+    try {
+      const response = await fetch("/api/stories", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ story, source, headline, caption, checks, flags, lesson, active, progress, folder, mediaDecision: sensitive ? "generated-image-only" : "video-allowed-after-checks", updatedAt: new Date().toISOString() }) });
+      if (!response.ok) throw new Error("sync failed");
+      setSyncState("saved");
+    } catch { setSyncState("error"); }
   }
 
   return <main>
     <header>
       <div className="brand"><span className="mark">TS</span><div><strong>TEZSCROLL</strong><small>Newsroom workflow</small></div></div>
-      <div className="header-actions"><span className="autosave"><i /> Saved on this device</span><button className="ghost" onClick={reset}>New story</button></div>
+      <div className="header-actions"><span className="autosave"><i /> Draft saved on device</span><button className="sync" onClick={syncToGitHub} disabled={syncState==="syncing"}>{syncState==="syncing" ? "Syncing..." : syncState==="saved" ? "Saved to GitHub" : syncState==="error" ? "Retry sync" : "Save to GitHub"}</button><button className="ghost" onClick={reset}>New story</button></div>
     </header>
 
     <section className="hero">
@@ -94,6 +106,7 @@ export default function Home() {
           <div className="line-counts">{[0,1,2].map(i=><span key={i} className={wordCounts[i]>=5&&wordCounts[i]<=6?"good":""}>Line {i+1}: {wordCounts[i]||0} words</span>)}</div>
         </div>
         <div className="tool-card"><div className="tool-head"><div><p>CAPTION BUILDER</p><h3>Publishing copy</h3></div><button onClick={()=>setCaption(captionTemplate)}>Use template</button></div><textarea rows={9} value={caption} onChange={e=>setCaption(e.target.value)} placeholder="Build the verified caption here..."/><button className="copy" onClick={()=>navigator.clipboard.writeText(caption)}>Copy complete caption</button></div>
+        <div className="tool-card"><div className="tool-head"><div><p>REPOSITORY MEMORY</p><h3>Lesson from this story</h3></div><span>Saved with record</span></div><textarea rows={4} value={lesson} onChange={e=>setLesson(e.target.value)} placeholder="What source, query, format, check, or correction should improve the next story?"/></div>
       </aside>
     </section>
 

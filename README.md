@@ -10,7 +10,9 @@ An online operations dashboard for the TezScroll news workflow. It turns the app
 - Three-line headline word-count checker
 - SOP-compliant caption and disclaimer template
 - Mandatory sensitive-media gate
+- Enforced Canva rule: video or image stays at the bottom of the layer stack
 - News-source framing guidance based on The Tatva and India in Last 24hr
+- GitHub-backed story records and repository memory
 
 ## Mandatory media safety rule
 
@@ -24,6 +26,14 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+## GitHub records and memory
+
+Every story can be saved as a versioned JSON record under `data/stories/`. The record covers research, corroboration, rejected leads, sensitivity flags, media choice, headline, caption, Canva export, Trello handoff, Meta publication, final verification, and the lesson learned.
+
+Configure a fine-grained `GITHUB_TOKEN` in the hosted environment with Contents read/write access limited to this repository. Never commit the token. The target repository defaults to `fluxpediawork/Post-Creation-and-Publish`.
+
+The canonical structure is `data/story-record-template.json`. The durable learning process is documented under `memory/`.
 
 ## Verify
 
