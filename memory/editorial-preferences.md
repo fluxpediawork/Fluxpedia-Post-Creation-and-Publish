@@ -35,3 +35,4 @@ This preference changes story selection, not the accuracy standard.
 - Keep internal text alignment centred and centre the complete headline text box to the page.
 - The approved reference headline box is Width 1089.2 px, Height 176.1 px, X = -4.6 px, Y = 229 px, Rotate = 0 degrees, with 41.2 pt text.
 - Do not move other elements while correcting headline fit or alignment.
+- Place the existing red highlight shape behind the selected main headline line. For this approved reference, the main line is line 1 and the shape is Width 894.9 px, Height 49.4 px, X = 92.5 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
