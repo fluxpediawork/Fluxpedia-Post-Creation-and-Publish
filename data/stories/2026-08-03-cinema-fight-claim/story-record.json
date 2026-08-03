@@ -26,9 +26,10 @@
     "yPx": 317,
     "rotateDegrees": 0,
     "placementReference": "media starts below white headline area and extends behind date/logo overlays to the bottom boundary",
-    "headlineLayout": { "lines": 3, "alignment": "centre", "widthPx": 1089.2, "heightPx": 176.1, "xPx": -4.6, "yPx": 229, "fontSize": 41.2 },
+    "headlineLayout": { "lines": 3, "alignment": "centre", "widthPx": 894.9, "heightPx": 203.7, "xPx": 92.5, "yPx": 229, "fontSize": 36.4, "bold": true, "rotateDegrees": 0 },
     "mediaImmediatelyAboveBackground": true,
     "headlineUpdated": true,
+    "headlineAppliedInCanva": true,
     "dateUpdated": true,
     "exportVerified": false
   },
