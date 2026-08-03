@@ -46,6 +46,16 @@
   },
   "googleAiModeRawOutput": "MOVIE SPOILERS CAUSE FURY\nCINEMA ARGUMENT SPARKED FIGHT\nANGRY FANS KILL TALKER",
   "googleAiModeRawOutputStatus": "rejected because the generated option presents the spoiler cause and an unverified death as confirmed facts; generate again or edit before Canva",
+  "googleAiModeFilteredVariations": [
+    "ALLEGED SPOILERS ANGER MOVIEGOERS\nHEATED CINEMA ARGUMENT QUICKLY ESCALATES\nBRUTAL FIGHT BREAKS OUT",
+    "SPIDER-MAN SPOILER CLAIM SPREADS\nANGRY VIEWERS CONFRONT MOVIEGOER\nCINEMA DESCENDS INTO CHAOS",
+    "MOVIE SPOILERS RUIN EXPERIENCE\nVIEWERS CONFRONT TALKING MAN\nTHEATRE FIGHT ERUPTS SUDDENLY",
+    "ALLEGED SPOILERS SPARK ANGER\nARGUMENT BREAKS OUT INSIDE CINEMA\nMOVIEGOERS TRADE HEAVY BLOWS",
+    "CINEMA SPOILER CLAIM EMERGES\nANGRY GROUP CONFRONTS MOVIEGOER\nVIOLENT THEATRE CLASH FOLLOWS",
+    "SPIDER-MAN VIEWERS LOSE PATIENCE\nALLEGED SPOILERS RUIN SCREENING\nMASSIVE CINEMA FIGHT ERUPTS",
+    "MOVIEGOER REVEALS SCENES EARLY\nFRUSTRATED VIEWERS START ARGUMENT\nTHEATRE TURNS INTO CHAOS",
+    "SPOILER CLAIM SHOCKS CINEMA\nVIEWERS EXCHANGE ANGRY WORDS\nPHYSICAL FIGHT ERUPTS INSIDE"
+  ],
   "captionDraft": "A short video showing a scuffle inside a cinema has gone viral alongside claims that an argument began over alleged spoilers during a Spider-Man screening. The precise location, circumstances and cause of the confrontation have not been officially confirmed.\n\nNo reliable report or official authority has confirmed the viral claim that a death occurred. News18 reported that the authenticity of the claims accompanying the clip remains unverified and that there was no official confirmation regarding the exact circumstances or any formal complaint.\n\nCredit: @0xMiraqle on X. Verification reference: News18. Visual: source clip retained as an unverified viral video; a generated illustrative image is also available for contextual use. Claims are based on publicly available reports at posting time and remain subject to correction.",
   "lesson": "A single X post may contain multiple videos. Identify media by duration and media ID, exclude quoted long-form content, and preserve uncertainty when the attached narrative is not independently verified. Never ungroup or move the Canva date badge to edit its text; preserve the grouped layout and stop if the text cannot be safely edited in place."
 }
