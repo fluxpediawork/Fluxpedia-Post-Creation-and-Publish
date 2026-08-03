@@ -14,7 +14,7 @@
   "checks": {},
   "research": { "query": "", "primaryUrl": "", "corroboratingUrls": [], "rejectedLeads": [], "location": "", "incidentDate": "", "credit": "" },
   "media": { "sourceFilename": "", "generatedImagePath": "", "finalExportPath": "", "sha256": "" },
-  "canva": { "projectUrl": "", "mediaAtBottom": false, "brandingAboveMedia": false, "exportVerified": false },
+  "canva": { "projectUrl": "", "neverCrop": true, "ratioLocked": false, "widthPx": 0, "heightPx": 0, "xPx": 0, "yPx": 0, "mediaAtBottom": false, "brandingAboveMedia": false, "exportVerified": false },
   "trello": { "cardUrl": "", "list": "On Posting", "completed": false },
   "meta": { "facebookUrl": "", "instagramUrl": "", "publishedAt": "", "verified": false }
 }

@@ -72,7 +72,11 @@ If none is true, video is only permitted after source, date, context, rights, qu
 - The new video or image must be the bottom media layer, matching the approved visual reference.
 - Breaking label, three-line headline, red highlight shape, TezScroll logo, date, and all other design elements must sit above it.
 - Delete every previous foreground and background media element before inserting the replacement.
-- Fill the frame without borders, distortion, or cropping away the central action.
+- Never crop the source image or video.
+- Lock the aspect ratio and scale the complete media proportionally to the 1080 x 1350 page.
+- For a 4:5 asset, use Width 1080 px and Height 1350 px.
+- Align Left and Top; verify X 0 px, Y 0 px and rotation 0 degrees.
+- Fill the frame without borders or distortion while retaining the complete source.
 - Open Position -> Layers and verify the order before export.
 
 ## Caption structure

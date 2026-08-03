@@ -20,3 +20,11 @@ This preference changes story selection, not the accuracy standard.
 - Create one clearly named story subfolder inside that daily folder.
 - Keep the original source, generated illustration when applicable, notes, Canva export, and final publishing assets together in the story subfolder.
 - Never mix assets from different dates or stories.
+
+## Canva media framing
+
+- Never crop a source image or video.
+- Preserve the complete asset by locking its aspect ratio and scaling it to the page dimensions.
+- The standard TezScroll page is 1080 x 1350. A 4:5 source should therefore be Width 1080 px and Height 1350 px.
+- Align the scaled asset Left and Top so X = 0 px and Y = 0 px, with rotation at 0 degrees.
+- In Layers, keep the asset immediately above Background and below all text, branding, date, logo and highlight elements.
