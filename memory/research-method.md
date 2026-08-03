@@ -23,7 +23,7 @@
 
 ## Editorial transformation
 
-- Write three simple headline lines of five to six words when layout permits.
+- Write exactly three simple headline lines of four to five words each.
 - State subject and action, then context/location, then consequence or relevance.
 - Preserve uncertainty and attribution. Never intensify a claim beyond the evidence.
 - Use the full caption structure with facts, impact, credits, fair-use text, public-content disclaimer, and rights note.
@@ -33,7 +33,10 @@
 - Open Position -> Arrange and use the approved reference values: Width 1080 px, Height 1350 px, X = 0 px, Y = 317 px, Rotate = 0 degrees, Ratio unlocked.
 - Do not use Canva's Crop control. The media must fill the page width, start below the white headline area, and extend behind the lower overlays to the page boundary.
 - Open Position -> Layers and confirm the media is immediately above Background and below all design overlays.
-- For headline ideation, paste the complete source caption into Google AI Mode and append the SOP instruction: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 5-6 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`. Then apply TezScroll's editorial pass: exactly three complete visible lines; five to six words on every line; together the lines explain the full incident; no questions, repetition, fabricated facts, or confirmed wording for unverified claims. The existing red shape highlights one important word or short phrase within the headline; it is not a separate headline line.
+- For headline ideation, first copy the complete original description from the same source used to download the video. Paste the whole description into Google AI Mode, then append exactly: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 4-5 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`.
+- Select or refine a result with exactly three visible lines and four to five words per line. The language must be easy enough for anyone to understand, and the three lines together must communicate the full incident context.
+- Do not use only a summary or isolated keywords as the AI input. Do not add invented facts or convert an uncertain claim into a confirmed fact.
+- The existing red shape highlights one important word or short phrase within the three-line headline; it is not a separate headline line.
 
 ## Close the learning loop
 

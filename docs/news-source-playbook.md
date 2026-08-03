@@ -61,11 +61,14 @@ If none is true, video is only permitted after source, date, context, rights, qu
 ## Headline structure
 
 - Exactly three visible lines.
-- Five to six simple words per line when the layout permits.
+- Four to five simple words per line.
+- Start with the complete original description from the same source used to download the video.
+- Paste that full description into Google AI Mode and append exactly: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 4-5 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`.
 - Line 1: subject and central action.
 - Line 2: location or immediate context.
 - Line 3: consequence or public relevance.
-- Direct and attention-grabbing, but never more dramatic than the verified facts.
+- All three lines together must give the full context in language anyone can understand.
+- Direct and attention-grabbing, but never invent or confirm an uncertain fact.
 
 ## Canva layer structure
 

@@ -38,13 +38,14 @@
     "notConfirmed": ["The location", "That spoilers caused the fight", "That a murder or death occurred", "Whether a formal complaint was filed", "The authenticity of the claims attached to the clip"]
   },
   "headline": "FIGHT ERUPTS INSIDE CINEMA\nOVER SPIDER-MAN SPOILER CLAIM\nVIDEO GOES VIRAL ONLINE",
-  "googleAiModeHeadlineVariations": [
-    "VIRAL VIDEO SHOWS MASSIVE CINEMA FIGHT\nMOVIEGOERS TRADE BLOWS ON CAMERA\nALLEGED SPIDER-MAN SPOILER CLAIMS EMERGE",
-    "MASSIVE FIGHT BREAKS OUT INSIDE CINEMA\nANGRY VIEWERS CLASH DURING MOVIE SCREENING\nALLEGED SPIDER-MAN SPOILER RUMOR SPREADS",
-    "SHOCKING VIDEO CAPTURES VIOLENT THEATRE BRAWL\nFURIOUS CROWD CLASHES INSIDE MOVIE HALL\nUNVERIFIED SPIDER-MAN SPOILER REPORTS EMERGE",
-    "VIRAL FOOTAGE REVEALS BRUTAL THEATRE CLASH\nPUBLIC ARGUMENT TURNS VIOLENT DURING MOVIE\nUNVERIFIED SPIDER-MAN SPOILER CLAIMS SURFACE",
-    "BRUTAL CINEMA CLASH CAPTURED ON VIDEO\nFURIOUS MOVIEGOERS FIGHT INSIDE THE HALL\nUNVERIFIED SPIDER-MAN SPOILER REPORTS SURFACE"
-  ],
+  "headlineGenerationMethod": {
+    "tool": "Google AI Mode",
+    "inputRule": "Paste the complete original description from the same source used to download the video.",
+    "promptSuffix": "GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 4-5 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL",
+    "outputRule": "Exactly three lines, four to five easy words per line, with all lines together explaining the full incident."
+  },
+  "googleAiModeRawOutput": "MOVIE SPOILERS CAUSE FURY\nCINEMA ARGUMENT SPARKED FIGHT\nANGRY FANS KILL TALKER",
+  "googleAiModeRawOutputStatus": "rejected because the generated option presents the spoiler cause and an unverified death as confirmed facts; generate again or edit before Canva",
   "captionDraft": "A short video showing a scuffle inside a cinema has gone viral alongside claims that an argument began over alleged spoilers during a Spider-Man screening. The precise location, circumstances and cause of the confrontation have not been officially confirmed.\n\nNo reliable report or official authority has confirmed the viral claim that a death occurred. News18 reported that the authenticity of the claims accompanying the clip remains unverified and that there was no official confirmation regarding the exact circumstances or any formal complaint.\n\nCredit: @0xMiraqle on X. Verification reference: News18. Visual: source clip retained as an unverified viral video; a generated illustrative image is also available for contextual use. Claims are based on publicly available reports at posting time and remain subject to correction.",
   "lesson": "A single X post may contain multiple videos. Identify media by duration and media ID, exclude quoted long-form content, and preserve uncertainty when the attached narrative is not independently verified. Never ungroup or move the Canva date badge to edit its text; preserve the grouped layout and stop if the text cannot be safely edited in place."
 }

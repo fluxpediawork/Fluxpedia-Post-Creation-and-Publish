@@ -102,7 +102,7 @@ export default function Home() {
       </div>
 
       <aside>
-        <div className="tool-card"><div className="tool-head"><div><p>HEADLINE CHECK</p><h3>Three-line title</h3></div><span>5-6 words / line</span></div><textarea className="headline" rows={3} value={headline} onChange={e=>setHeadline(e.target.value.split("\n").slice(0,3).join("\n"))} placeholder={'LINE ONE HAS FIVE WORDS\nLINE TWO HAS FIVE WORDS\nLINE THREE HAS FIVE WORDS'} />
+        <div className="tool-card"><div className="tool-head"><div><p>HEADLINE CHECK</p><h3>Three-line title</h3></div><span>4-5 words / line</span></div><textarea className="headline" rows={3} value={headline} onChange={e=>setHeadline(e.target.value.split("\n").slice(0,3).join("\n"))} placeholder={'LINE ONE HAS FOUR WORDS\nLINE TWO HAS FIVE WORDS\nLINE THREE HAS FOUR WORDS'} />
           <div className="line-counts">{[0,1,2].map(i=><span key={i} className={wordCounts[i]>=5&&wordCounts[i]<=6?"good":""}>Line {i+1}: {wordCounts[i]||0} words</span>)}</div>
         </div>
         <div className="tool-card"><div className="tool-head"><div><p>CAPTION BUILDER</p><h3>Publishing copy</h3></div><button onClick={()=>setCaption(captionTemplate)}>Use template</button></div><textarea rows={9} value={caption} onChange={e=>setCaption(e.target.value)} placeholder="Build the verified caption here..."/><button className="copy" onClick={()=>navigator.clipboard.writeText(caption)}>Copy complete caption</button></div>
