@@ -33,6 +33,7 @@
 - Open Position -> Arrange and use the approved reference values: Width 1080 px, Height 1350 px, X = 0 px, Y = 317 px, Rotate = 0 degrees, Ratio unlocked.
 - Do not use Canva's Crop control. The media must fill the page width, start below the white headline area, and extend behind the lower overlays to the page boundary.
 - Open Position -> Layers and confirm the media is immediately above Background and below all design overlays.
+- For headline ideation, paste the complete source caption into Google AI Mode and append the SOP instruction: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 5-6 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`. Then apply TezScroll's editorial pass: exactly three complete visible lines; five to six words on every line; together the lines explain the full incident; no questions, repetition, fabricated facts, or confirmed wording for unverified claims. The existing red shape highlights one important word or short phrase within the headline; it is not a separate headline line.
 
 ## Close the learning loop
 
