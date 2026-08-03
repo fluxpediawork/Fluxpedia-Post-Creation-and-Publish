@@ -61,6 +61,7 @@ If none is true, video is only permitted after source, date, context, rights, qu
 ## Headline structure
 
 - Exactly three visible lines.
+- This is strict: automatic wrapping must never create a fourth visible line. Shorten the wording and recheck the live Canva text box until only three lines remain.
 - Four to five simple words per line.
 - Start with the complete original description from the same source used to download the video.
 - Paste that full description into Google AI Mode and append exactly: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 4-5 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`.

@@ -26,7 +26,7 @@
     "yPx": 317,
     "rotateDegrees": 0,
     "placementReference": "media starts below white headline area and extends behind date/logo overlays to the bottom boundary",
-    "headlineLayout": { "lines": 3, "alignment": "centre", "widthPx": 894.9, "heightPx": 203.7, "xPx": 92.5, "yPx": 229, "fontSize": 36.4, "bold": true, "rotateDegrees": 0 },
+    "headlineLayout": { "lines": 3, "strictNoWrap": true, "alignment": "centre", "widthPx": 894.9, "heightPx": 155, "xPx": 92.5, "yPx": 229, "fontSize": 36.4, "bold": true, "rotateDegrees": 0 },
     "mediaImmediatelyAboveBackground": true,
     "headlineUpdated": true,
     "headlineAppliedInCanva": true,
@@ -38,7 +38,7 @@
     "confirmed": ["A short theatre-fight clip was attached to the supplied X post", "News18 reported the clip had gone viral"],
     "notConfirmed": ["The location", "That spoilers caused the fight", "That a murder or death occurred", "Whether a formal complaint was filed", "The authenticity of the claims attached to the clip"]
   },
-  "headline": "MAN REVEALS SPIDER-MAN SPOILERS\nANGRY VIEWERS CONFRONT HIM\nTHEATRE FIGHT BREAKS OUT",
+  "headline": "MAN SPOILS SPIDER-MAN MOVIE\nANGRY VIEWERS CONFRONT HIM\nTHEATRE FIGHT BREAKS OUT",
   "headlineSelectionReason": "Approved because the three lines clearly communicate the complete incident sequence: spoiler disclosure, viewer confrontation, and theatre fight.",
   "headlineGenerationMethod": {
     "tool": "Google AI Mode",
