@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "story": "Ranchi student protest over alleged JPSC and JSSC exam irregularities",
+  "source": "https://x.com/ShivAroor/status/2083972263012094201",
+  "titleSource": "https://www.instagram.com/p/DbkwRWiCVLI/?img_index=1",
+  "updatedAt": "2026-08-03T16:33:17+05:30",
+  "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Ranchi Student Protest",
+  "sourceText": "For over a week now, tens of thousands of students have been protesting in Ranchi, Jharkhand over paper leak in JPSC & JSSC entrance exams. Images from tonight. Full ground reports by Harivansh Sharma on @NDTV.",
+  "titleInspiration": "JHARKHAND WANTS SUPPORT! Thousands of students are protesting in Ranchi but no one cares anymore?",
+  "sourceHandling": {
+    "videoSourceRole": "media",
+    "titleSourceRole": "headline framing",
+    "publicCaptionIncludesSourceCredit": false,
+    "internalTraceabilityPreserved": true
+  },
+  "safety": {
+    "minor": false,
+    "blood": false,
+    "sexual": false,
+    "selfHarm": false,
+    "decision": "video-allowed-after-visual-check",
+    "routeReason": "The supplied footage shows a large public protest without visible blood, sexual content, self-harm, or identifiable minor-focused harm."
+  },
+  "headline": "JHARKHAND NEEDS YOUR SUPPORT\nTHOUSANDS OF STUDENTS PROTEST\nIN RANCHI, NO ONE CARES?",
+  "headlineLayout": {
+    "visibleLines": 3,
+    "wordsPerLine": [4, 4, 5],
+    "line1Color": "#ffffff",
+    "line2Color": "#000000",
+    "line3Color": "#000000",
+    "line1Highlight": "#c42222"
+  },
+  "sourceVideo": {
+    "filename": "source_original.mp4",
+    "infoFilename": "source_original.info.json",
+    "sizeBytes": 18683172,
+    "durationSeconds": 99.451066,
+    "widthPx": 1024,
+    "heightPx": 576,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "canva": {
+    "projectUrl": "https://www.canva.com/design/DAHROtvE6NE/tft5UMKlHPTr_K24j8VL7g/edit",
+    "neverCrop": true,
+    "ratioLocked": false,
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "xPx": 0,
+    "yPx": 317,
+    "rotateDegrees": 0,
+    "mediaImmediatelyAboveBackground": true,
+    "date": "03 AUG",
+    "headlineApplied": true,
+    "redHighlightBehindLine1": true,
+    "exportVerified": true
+  },
+  "finalExport": {
+    "filename": "final_tezscroll_ranchi_student_protest_2026-08-03.mp4",
+    "localPath": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Ranchi Student Protest/final_tezscroll_ranchi_student_protest_2026-08-03.mp4",
+    "sizeBytes": 57082446,
+    "durationSeconds": 99.451,
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "verified": true
+  },
+  "caption": "Tens of thousands of students have been protesting in Ranchi, Jharkhand, over alleged paper leaks and irregularities in JPSC and JSSC recruitment examinations. The supplied footage shows a large night march as aspirants demand accountability and a fair recruitment process.\n\nThe protest has continued for more than a week, according to the supplied report. Students say repeated examination problems have put years of preparation and their families’ savings at risk. Claims regarding individual responsibility and the full scope of the alleged irregularities should remain attributed until officially established.\n\nFAIR USE: Copyright Disclaimer under Section 107 of the Copyright Act, 1976. Allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship and research. We do not claim ownership of the content featured in this post.\n\nDisclaimer: This page shares publicly available content for informational and awareness purposes only.\n\nInformation is based on publicly available reports at the time of posting. All rights and credits belong to their respective owners. If you are the rightful owner of any content and would like it credited or removed, please contact us via DM or email.",
+  "trello": {
+    "title": "Ranchi students protest exam irregularities | TezScroll",
+    "cardUrl": "https://trello.com/c/PK7ocdWf/1564-ranchi-students-protest-exam-irregularities-tezscroll",
+    "initialList": "On Posting",
+    "finalList": "Completed",
+    "complete": true,
+    "labels": ["Post", "TezScroll"],
+    "member": "FluxPedia (fluxpedia1)",
+    "dueDate": "2026-08-03",
+    "attachment": "final_tezscroll_ranchi_student_protest_2026-08-03.mp4",
+    "descriptionVerified": true
+  },
+  "publishing": {
+    "status": "published-and-verified",
+    "tool": "Meta Business Suite",
+    "contentId": "122118489897286740",
+    "contentType": "Reel",
+    "crossposted": true,
+    "destinations": ["TezScroll (Facebook)", "tezscroll (Instagram)"],
+    "publishedAt": "2026-08-03T16:30:00+05:30",
+    "publishedDurationDisplay": "1:40",
+    "verificationUrl": "https://business.facebook.com/latest/posts/published_posts/?business_id=910102451435392&asset_id=1019400671252252",
+    "captionMatched": true,
+    "copyrightCheck": "No copyright issues were found"
+  },
+  "workflowStatus": "complete",
+  "lesson": "When the user supplies separate video and title sources, use the video source for media and the title source for headline framing, while preserving both URLs internally."
+}

@@ -27,6 +27,12 @@ This preference changes story selection, not the accuracy standard.
 - Keep the original source, generated illustration when applicable, notes, Canva export, and final publishing assets together in the story subfolder.
 - Never mix assets from different dates or stories.
 
+## Separate media and title sources
+
+- When the user supplies one source for the video and another source for the title, use the video source only for media and use the title source for headline framing.
+- Preserve both source URLs in the internal story record for traceability.
+- Do not add either source URL or account credit to the public caption unless the user explicitly asks for it.
+
 ## Canva media framing
 
 - Never crop a source image or video.
