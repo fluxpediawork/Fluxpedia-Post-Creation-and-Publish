@@ -33,6 +33,8 @@ This preference changes story selection, not the accuracy standard.
 
 - The visible headline must remain exactly three lines; shorten wording instead of allowing automatic wrapping to create a fourth line.
 - Keep internal text alignment centred and centre the complete headline text box to the page.
-- The approved reference headline box is Width 1089.2 px, Height 176.1 px, X = -4.6 px, Y = 229 px, Rotate = 0 degrees, with 41.2 pt text.
+- The current approved headline box is Width 894.9 px, Height 155 px, X = 92.5 px, Y = 229 px, Rotate = 0 degrees, with 36.4 pt bold text.
 - Do not move other elements while correcting headline fit or alignment.
-- Place the existing red highlight shape behind the selected main headline line. For this approved reference, the main line is line 1 and the shape is Width 894.9 px, Height 49.4 px, X = 92.5 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
+- Fit the existing red highlight shape to the selected main-line text width with modest side padding, then centre it behind that line.
+- Every part of the headline that overlaps the red shape must be white (`#ffffff`); headline text outside the shape remains black (`#000000`).
+- For this approved reference, the main line is line 1 and the shape is Width 655 px, Height 49.4 px, X = 212.5 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
