@@ -3,7 +3,7 @@
   "story": "Cinema fight viral claim",
   "source": "https://x.com/0xMiraqle/status/2083948383064961445",
   "corroboration": "https://www.news18.com/movies/hollywood/spider-man-brand-new-day-screening-erupts-into-fight-after-viewer-allegedly-shares-spoilers-video-goes-viral-ws-kl-10248315.html",
-  "updatedAt": "2026-08-03T15:35:00+05:30",
+  "updatedAt": "2026-08-03T15:45:00+05:30",
   "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Cinema Fight Claim",
   "mediaDecision": "source-video-downloaded-but-claim-remains-unverified",
   "sourceVideo": {
@@ -27,8 +27,8 @@
     "rotateDegrees": 0,
     "placementReference": "media starts below white headline area and extends behind date/logo overlays to the bottom boundary",
     "mediaImmediatelyAboveBackground": true,
-    "headlineUpdated": false,
-    "dateUpdated": false,
+    "headlineUpdated": true,
+    "dateUpdated": true,
     "exportVerified": false
   },
   "verification": {
@@ -36,7 +36,7 @@
     "confirmed": ["A short theatre-fight clip was attached to the supplied X post", "News18 reported the clip had gone viral"],
     "notConfirmed": ["The location", "That spoilers caused the fight", "That a murder or death occurred", "Whether a formal complaint was filed", "The authenticity of the claims attached to the clip"]
   },
-  "headline": "VIRAL THEATRE FIGHT CLAIM SPREADS\nSPIDER-MAN SPOILER STORY REMAINS UNVERIFIED\nNO DEATH CONFIRMED BY AUTHORITIES",
+  "headline": "FIGHT BREAKS OUT IN CINEMA\nAFTER ALLEGED SPIDER-MAN SPOILERS\nVIDEO GOES VIRAL ONLINE",
   "captionDraft": "A short video showing a scuffle inside a cinema has gone viral alongside claims that an argument began over alleged spoilers during a Spider-Man screening. The precise location, circumstances and cause of the confrontation have not been officially confirmed.\n\nNo reliable report or official authority has confirmed the viral claim that a death occurred. News18 reported that the authenticity of the claims accompanying the clip remains unverified and that there was no official confirmation regarding the exact circumstances or any formal complaint.\n\nCredit: @0xMiraqle on X. Verification reference: News18. Visual: source clip retained as an unverified viral video; a generated illustrative image is also available for contextual use. Claims are based on publicly available reports at posting time and remain subject to correction.",
   "lesson": "A single X post may contain multiple videos. Identify media by duration and media ID, exclude quoted long-form content, and preserve uncertainty when the attached narrative is not independently verified. Never ungroup or move the Canva date badge to edit its text; preserve the grouped layout and stop if the text cannot be safely edited in place."
 }
