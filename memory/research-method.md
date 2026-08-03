@@ -35,6 +35,7 @@
 - Open Position -> Layers and confirm the media is immediately above Background and below all design overlays.
 - For headline ideation, first copy the complete original description from the same source used to download the video. Paste the whole description into Google AI Mode, then append exactly: `GIVE ME TITLE IN 3 LINE AND EACH LINE HAVE 4-5 WORDS AND EASY AND SIMPLE, CONTROVERSIAL AND BRUTAL`.
 - Select or refine a result with exactly three visible lines and four to five words per line. The language must be easy enough for anyone to understand, and the three lines together must communicate the full incident context.
+- Prefer a clear incident sequence across the three lines: who did what, who responded or where it happened, and what happened next. Reject vague lines that merely say a clip went viral without explaining the event.
 - Do not use only a summary or isolated keywords as the AI input. Do not add invented facts or convert an uncertain claim into a confirmed fact.
 - The existing red shape highlights one important word or short phrase within the three-line headline; it is not a separate headline line.
 

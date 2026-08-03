@@ -37,7 +37,8 @@
     "confirmed": ["A short theatre-fight clip was attached to the supplied X post", "News18 reported the clip had gone viral"],
     "notConfirmed": ["The location", "That spoilers caused the fight", "That a murder or death occurred", "Whether a formal complaint was filed", "The authenticity of the claims attached to the clip"]
   },
-  "headline": "FIGHT ERUPTS INSIDE CINEMA\nOVER SPIDER-MAN SPOILER CLAIM\nVIDEO GOES VIRAL ONLINE",
+  "headline": "MAN REVEALS SPIDER-MAN SPOILERS\nANGRY VIEWERS CONFRONT HIM\nTHEATRE FIGHT BREAKS OUT",
+  "headlineSelectionReason": "Approved because the three lines clearly communicate the complete incident sequence: spoiler disclosure, viewer confrontation, and theatre fight.",
   "headlineGenerationMethod": {
     "tool": "Google AI Mode",
     "inputRule": "Paste the complete original description from the same source used to download the video.",
