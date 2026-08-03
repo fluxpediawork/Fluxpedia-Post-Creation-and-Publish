@@ -14,6 +14,12 @@ When the user supplies a specific news link:
 
 This preference changes story selection, not the accuracy standard.
 
+## Description exclusions
+
+- Do not publish a standalone credit paragraph naming the source account, linking the visual source, or saying `contact us for credit or removal`.
+- Keep the source account and source URL in the internal story record for traceability, not in the public description.
+- Keep the general fair-use disclaimer, public-content disclaimer, and final rights note unless the user explicitly changes them.
+
 ## Local daily folders
 
 - Store working assets under `Downloads/TezScroll News/YYYY-MM-DD/`.

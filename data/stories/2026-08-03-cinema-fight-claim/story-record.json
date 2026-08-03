@@ -3,7 +3,7 @@
   "story": "Cinema fight viral claim",
   "source": "https://x.com/0xMiraqle/status/2083948383064961445",
   "corroboration": "https://www.news18.com/movies/hollywood/spider-man-brand-new-day-screening-erupts-into-fight-after-viewer-allegedly-shares-spoilers-video-goes-viral-ws-kl-10248315.html",
-  "updatedAt": "2026-08-03T15:50:20+05:30",
+  "updatedAt": "2026-08-03T15:58:54+05:30",
   "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Cinema Fight Claim",
   "mediaDecision": "source-video-downloaded-but-claim-remains-unverified",
   "sourceVideo": {
@@ -67,7 +67,10 @@
     "publishedAt": "2026-08-03T15:47:00+05:30",
     "publishedDurationDisplay": "0:11",
     "verificationUrl": "https://business.facebook.com/latest/posts/published_posts/?business_id=910102451435392&asset_id=1019400671252252",
-    "captionMatchedTrello": true
+    "captionMatchedTrello": false,
+    "captionCorrectionRequestedAt": "2026-08-03T15:58:54+05:30",
+    "captionCorrectionStatus": "deferred-by-user-after-meta-technical-error-and-facebook-passkey",
+    "captionCreditLineRemovedFromTrello": true
   },
   "workflowStatus": "complete",
   "verification": {
@@ -96,5 +99,6 @@
     "SPOILER CLAIM SHOCKS CINEMA\nVIEWERS EXCHANGE ANGRY WORDS\nPHYSICAL FIGHT ERUPTS INSIDE"
   ],
   "publishedCaption": "A short video showing a scuffle inside a cinema has gone viral alongside claims that an argument began after a man allegedly revealed Spider-Man plot details during a screening. Viewers are seen confronting him before a fight breaks out. The exact location, circumstances and claimed cause have not been independently or officially confirmed.\n\nThe clip has renewed discussion about cinema etiquette and the harm caused by speaking through or spoiling a film. No reliable report or official authority has confirmed the precise cause, injuries, any formal complaint, or claims that a death occurred.\n\nCredit: @0xMiraqle on X. Visual source: https://x.com/0xMiraqle/status/2083948383064961445. If you are the rightful owner of this video, please contact us for credit or removal.\n\nFAIR USE: Copyright Disclaimer under Section 107 of the Copyright Act, 1976. Allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship and research. We do not claim ownership of the content featured in this post.\n\nDisclaimer: This page shares publicly available content for informational and awareness purposes only.\n\nInformation is based on publicly available reports at the time of posting. All rights and credits belong to their respective owners. If you are the rightful owner of any content and would like it credited or removed, please contact us via DM or email.",
+  "approvedCaption": "A short video showing a scuffle inside a cinema has gone viral alongside claims that an argument began after a man allegedly revealed Spider-Man plot details during a screening. Viewers are seen confronting him before a fight breaks out. The exact location, circumstances and claimed cause have not been independently or officially confirmed.\n\nThe clip has renewed discussion about cinema etiquette and the harm caused by speaking through or spoiling a film. No reliable report or official authority has confirmed the precise cause, injuries, any formal complaint, or claims that a death occurred.\n\nFAIR USE: Copyright Disclaimer under Section 107 of the Copyright Act, 1976. Allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship and research. We do not claim ownership of the content featured in this post.\n\nDisclaimer: This page shares publicly available content for informational and awareness purposes only.\n\nInformation is based on publicly available reports at the time of posting. All rights and credits belong to their respective owners. If you are the rightful owner of any content and would like it credited or removed, please contact us via DM or email.",
   "lesson": "A single X post may contain multiple videos. Identify media by duration and media ID, exclude quoted long-form content, and preserve uncertainty when the attached narrative is not independently verified. Never ungroup or move the Canva date badge to edit its text; preserve the grouped layout and stop if the text cannot be safely edited in place."
 }

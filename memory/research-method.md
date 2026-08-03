@@ -26,7 +26,7 @@
 - Write exactly three simple headline lines of four to five words each.
 - State subject and action, then context/location, then consequence or relevance.
 - Preserve uncertainty and attribution. Never intensify a claim beyond the evidence.
-- Use the full caption structure with facts, impact, credits, fair-use text, public-content disclaimer, and rights note.
+- Use the caption structure with facts, impact, fair-use text, public-content disclaimer, and final rights note. Store the source account and source URL in the internal story record, not in the public description.
 - In Canva, keep the selected video or image at the bottom of the layer stack. Breaking label, headline, red highlight, logo, date, and every other design element must remain above the media.
 - Remove all old foreground and background media before placing the replacement. Never leave old footage hidden underneath the new asset.
 - Never crop an image or video to fit the frame.
@@ -50,7 +50,7 @@
 
 - Download only the completed Canva page as MP4 at 1080 x 1350 for a video post. Verify the exported file with playback or media metadata before attaching it anywhere.
 - If Chrome saves a Canva blob export with a temporary filename, verify that it is the expected MP4, then move and rename it inside the matching dated story folder using `final_tezscroll_<story>_YYYY-MM-DD.mp4`.
-- Create the Trello card in `On Posting`, attach the verified final export, add `Post` and `TezScroll`, assign `FluxPedia`, set today's due date, and paste the complete caption with credits and all disclaimers.
+- Create the Trello card in `On Posting`, attach the verified final export, add `Post` and `TezScroll`, assign `FluxPedia`, set today's due date, and paste the complete public caption without a source-credit paragraph. Keep the fair-use, public-content, and final rights disclaimers.
 - In Meta Business Suite, confirm `TezScroll` Facebook and `tezscroll` Instagram are both selected. Upload the exact Trello attachment and use the exact Trello description.
 - After publishing, search the Published content table by a distinctive caption phrase. Require the matching duration, `Reel`, `Crossposted`, and both `TezScroll, tezscroll` destinations before closing the workflow.
 - Only after Meta verification, mark the Trello card complete first and then move it from `On Posting` to `Completed`.
