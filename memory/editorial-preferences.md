@@ -51,3 +51,11 @@ This preference changes story selection, not the accuracy standard.
 - Every part of the headline that overlaps the red shape must be white (`#ffffff`); headline text outside the shape remains black (`#000000`).
 - Confirm the selected headline reports mixed text colours `White and Black` in Canva before finishing.
 - For this user-corrected reference, the main line is line 1 and the shape is Width 864 px, Height 53.4 px, X = 108 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
+
+## Image carousel posts
+
+- Treat the Canva-designed TezScroll cover as slide 1.
+- Place the verified tweet, official notice, or other supporting evidence image as slide 2 unless the user specifies a different sequence.
+- Preserve that order during export, Trello attachment handling, and Meta upload; use numbered filenames (`01_`, `02_`) to make the intended sequence explicit.
+- For non-graphic stories that cannot use incident footage, create a restrained editorial illustration with clean header space for the headline and keep the verified evidence as a separate carousel slide.
+- The Trello description must contain the final public caption. Keep source URLs, source-account details, internal research notes, generation prompts, safety routing, and workflow metadata in the GitHub story record instead.
