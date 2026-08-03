@@ -28,3 +28,10 @@ This preference changes story selection, not the accuracy standard.
 - Keep Ratio unlocked for this reference placement. Do not use Canva's Crop control; size the clip and move it down to preserve the white headline area.
 - The video fills the full page width, begins below the headline area, and continues behind the date/logo overlays to the bottom page boundary.
 - In Layers, keep the asset immediately above Background and below all text, branding, date, logo and highlight elements.
+
+## Canva headline layout
+
+- The visible headline must remain exactly three lines; shorten wording instead of allowing automatic wrapping to create a fourth line.
+- Keep internal text alignment centred and centre the complete headline text box to the page.
+- The approved reference headline box is Width 1089.2 px, Height 176.1 px, X = -4.6 px, Y = 229 px, Rotate = 0 degrees, with 41.2 pt text.
+- Do not move other elements while correcting headline fit or alignment.
