@@ -2,6 +2,7 @@
 
 ## Discovery
 
+- When the user shares a specific link, use it as the selected lead and skip broad discovery. Verification rules still apply.
 - Search current posts from official authorities, established agencies, verified reporters, emergency services, government bodies, and reliable local outlets.
 - Use The Tatva and India in Last 24hr to identify candidate topics and framing patterns, not as sole verification.
 - Prefer stories with a clear public-interest angle, understandable central action, verified location, and usable non-harmful visual route.

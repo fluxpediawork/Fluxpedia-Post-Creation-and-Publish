@@ -23,3 +23,5 @@ This folder is the durable operating memory for the publishing workflow. It stor
 - Sensitive-story lessons must not reproduce graphic details or self-harm methods.
 
 Story records live in `data/stories/`. The canonical structure is `data/story-record-template.json`.
+
+User workflow preferences live in `memory/editorial-preferences.md`. A supplied link selects the lead but never converts an unsupported claim into a verified fact.
