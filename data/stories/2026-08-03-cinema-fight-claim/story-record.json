@@ -3,7 +3,7 @@
   "story": "Cinema fight viral claim",
   "source": "https://x.com/0xMiraqle/status/2083948383064961445",
   "corroboration": "https://www.news18.com/movies/hollywood/spider-man-brand-new-day-screening-erupts-into-fight-after-viewer-allegedly-shares-spoilers-video-goes-viral-ws-kl-10248315.html",
-  "updatedAt": "2026-08-03T15:00:00+05:30",
+  "updatedAt": "2026-08-03T15:20:00+05:30",
   "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Cinema Fight Claim",
   "mediaDecision": "source-video-downloaded-but-claim-remains-unverified",
   "sourceVideo": {
@@ -27,7 +27,7 @@
     "rotateDegrees": 0,
     "placementReference": "media starts below white headline area and extends behind date/logo overlays to the bottom boundary",
     "mediaImmediatelyAboveBackground": true,
-    "headlineUpdated": false,
+    "headlineUpdated": true,
     "dateUpdated": false,
     "exportVerified": false
   },
