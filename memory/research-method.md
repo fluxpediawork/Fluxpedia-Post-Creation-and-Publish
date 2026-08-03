@@ -45,3 +45,12 @@
 - Compare the published result with the verified source record.
 - Record corrections, platform issues, headline clarity, media performance, and workflow friction.
 - Add only reusable, evidence-backed lessons to repository memory.
+
+## Download, Trello, and publishing closeout
+
+- Download only the completed Canva page as MP4 at 1080 x 1350 for a video post. Verify the exported file with playback or media metadata before attaching it anywhere.
+- If Chrome saves a Canva blob export with a temporary filename, verify that it is the expected MP4, then move and rename it inside the matching dated story folder using `final_tezscroll_<story>_YYYY-MM-DD.mp4`.
+- Create the Trello card in `On Posting`, attach the verified final export, add `Post` and `TezScroll`, assign `FluxPedia`, set today's due date, and paste the complete caption with credits and all disclaimers.
+- In Meta Business Suite, confirm `TezScroll` Facebook and `tezscroll` Instagram are both selected. Upload the exact Trello attachment and use the exact Trello description.
+- After publishing, search the Published content table by a distinctive caption phrase. Require the matching duration, `Reel`, `Crossposted`, and both `TezScroll, tezscroll` destinations before closing the workflow.
+- Only after Meta verification, mark the Trello card complete first and then move it from `On Posting` to `Completed`.
