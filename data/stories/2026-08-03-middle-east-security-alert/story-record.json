@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "story": "U.S. State Department Middle East travel warning",
+  "source": "https://www.instagram.com/p/DbiM6zbETKm/?img_index=1",
+  "officialSource": "https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html",
+  "updatedAt": "2026-08-03T18:15:00+05:30",
+  "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-03/Middle East Security Alert",
+  "safety": {
+    "minor": false,
+    "blood": false,
+    "sexual": false,
+    "selfHarm": false,
+    "decision": "generated-image-carousel",
+    "routeReason": "A restrained, non-graphic editorial illustration was used instead of incident footage; the verified TravelGov post was retained as the supporting evidence slide."
+  },
+  "headline": "MIDDLE EAST TRAVEL WARNING\nAMERICANS PREPARE TO LEAVE\nFLIGHTS MAY FACE DISRUPTIONS",
+  "headlineLayout": {
+    "visibleLines": 3,
+    "wordsPerLine": [4, 4, 4],
+    "line1Color": "#ffffff",
+    "line2Color": "#000000",
+    "line3Color": "#000000",
+    "line1Highlight": "#c42222"
+  },
+  "carousel": {
+    "slideCount": 2,
+    "order": [
+      "01_tezscroll_middle_east_security_alert_2026-08-03.png",
+      "02_verified_travelgov_tweet.jpg"
+    ],
+    "slide1Role": "Canva-designed TezScroll cover",
+    "slide2Role": "Verified TravelGov supporting post"
+  },
+  "imageGeneration": {
+    "tool": "ChatGPT",
+    "asset": "chatgpt_generated_middle_east_airport.png",
+    "headerSpaceReserved": true,
+    "graphicContentExcluded": true
+  },
+  "canva": {
+    "projectUrl": "https://www.canva.com/design/DAHRPCqDDQI/Jn3Z_nhWyGM_sGPsODOdUg/edit",
+    "neverCrop": true,
+    "mediaImmediatelyAboveBackground": true,
+    "date": "03 AUG",
+    "headlineApplied": true,
+    "redHighlightBehindLine1": true,
+    "exportVerified": true,
+    "widthPx": 1080,
+    "heightPx": 1350
+  },
+  "caption": "The U.S. State Department has urged Americans in the Middle East to exercise heightened caution amid possible flight cancellations, temporary airspace closures and other travel disruptions.\n\nIts worldwide caution notice says Americans already in the region should consider departing — or be prepared to depart — if the security situation escalates. Those outside the Middle East have been advised to seriously reconsider travel to or through the region.\n\nTravellers should monitor official country-specific advisories and check directly with airlines and airports before making plans. Conditions and flight operations can change quickly.\n\nFAIR USE: Copyright Disclaimer under Section 107 of the Copyright Act, 1976. Allowance is made for fair use for purposes such as criticism, comment, news reporting, teaching, scholarship and research. We do not claim ownership of the content featured in this post.\n\nDisclaimer: This page shares publicly available content for informational and awareness purposes only.\n\nInformation is based on publicly available reports at the time of posting. All rights belong to their respective owners.\n\n#MiddleEast #TravelAlert #USStateDepartment #TezScroll",
+  "captionRules": {
+    "trelloDescriptionMatchesPublicCaption": true,
+    "publicCaptionIncludesSourceCredit": false,
+    "internalTraceabilityPreserved": true
+  },
+  "trello": {
+    "title": "Middle East travel warning carousel | TezScroll",
+    "cardUrl": "https://trello.com/c/7y5CDHgz/1567-middle-east-travel-warning-carousel-tezscroll",
+    "initialList": "On Posting",
+    "finalList": "Completed",
+    "complete": true,
+    "labels": ["Post", "TezScroll"],
+    "member": "FluxPedia (fluxpedia1)",
+    "dueDate": "2026-08-03",
+    "attachments": [
+      "01_tezscroll_middle_east_security_alert_2026-08-03.png",
+      "02_verified_travelgov_tweet.jpg"
+    ],
+    "descriptionVerified": true
+  },
+  "publishing": {
+    "status": "published-and-verified",
+    "tool": "Meta Business Suite",
+    "contentId": "122118495399286740",
+    "contentType": "Multi media",
+    "crossposted": true,
+    "destinations": ["TezScroll (Facebook)", "tezscroll (Instagram)"],
+    "publishedAt": "2026-08-03T18:15:00+05:30",
+    "verificationUrl": "https://business.facebook.com/latest/posts/published_posts/?business_id=910102451435392&asset_id=1019400671252252",
+    "captionMatched": true
+  },
+  "workflowStatus": "complete",
+  "lesson": "For image carousels, keep the Canva cover first and the verified evidence image second; put the final public caption in Trello and keep internal research and source traceability in GitHub."
+}
