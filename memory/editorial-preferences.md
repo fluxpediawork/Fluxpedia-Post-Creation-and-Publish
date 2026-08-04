@@ -51,3 +51,22 @@ This preference changes story selection, not the accuracy standard.
 - Every part of the headline that overlaps the red shape must be white (`#ffffff`); headline text outside the shape remains black (`#000000`).
 - Confirm the selected headline reports mixed text colours `White and Black` in Canva before finishing.
 - For this user-corrected reference, the main line is line 1 and the shape is Width 864 px, Height 53.4 px, X = 108 px, Y = 229 px, color `#c42222`, rotation 0 degrees.
+
+## Canva shortcut-first workflow
+
+- Use Canva keyboard shortcuts for every supported editing action.
+- Use `Alt + 1` to open Position → Layers, then select only the intended layer.
+- Use `Alt + Ctrl + [` to send the selected image or video to the bottom of the editable stack, immediately above Background.
+- Use `Ctrl + F` to replace the date and each headline line separately so mixed colours and line formatting remain intact.
+- Use `Ctrl + S` after material changes. Never group or ungroup routine template elements.
+- Use buttons only where Canva does not provide a suitable shortcut, including selecting a local upload, choosing an exact layer, entering exact numeric dimensions, and downloading the export.
+- Give each uploaded source media file a unique story-and-post-ID filename. Never reuse a generic name such as `source_original.mp4` in Canva because duplicate asset names can select an older upload.
+
+## X publishing
+
+- Publish every completed TezScroll post to `@TezScroll` on X as a required final destination.
+- Write a separate X caption that fits the platform character limit; do not reuse an overlength Facebook or Instagram caption.
+- Keep the X caption concise: include only the essential verified or carefully attributed facts and two to four relevant hashtags.
+- Omit the long fair-use disclaimer, public-content disclaimer, rights note, source-credit paragraph, and contact-for-removal language from X captions.
+- When the post requires media, never publish it as text-only. Confirm that the correct image or video is attached and fully processed before selecting Post.
+- After publishing, verify the live X status URL and store the exact caption, character count, account, publication time, and URL in the story record.

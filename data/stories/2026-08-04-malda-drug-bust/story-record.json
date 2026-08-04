@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "story": "Malda cross-border narcotics network bust",
+  "source": "https://x.com/thetatvaindia/status/2084304231004270705/video/1",
+  "updatedAt": "2026-08-04T11:57:00+05:30",
+  "localFolder": "C:/Users/User/Downloads/TezScroll News/2026-08-04/Malda Narcotics Bust",
+  "sourceText": "Cross-border narcotics syndicate busted in West Bengal; police seize ₹2.4 crore cash, thousands of cough syrup bottles worth ₹90 lakh, and 20 grams of gold during a joint operation in Malda. Three accused have been arrested.",
+  "safety": {
+    "minor": false,
+    "blood": false,
+    "sexual": false,
+    "selfHarm": false,
+    "decision": "video-allowed-after-visual-check",
+    "routeReason": "The clip shows seized cash and physical evidence without visible blood, sexual content, self-harm, or minor-focused harm."
+  },
+  "headline": "MALDA DRUG NETWORK BUSTED\n₹2.4 CRORE CASH SEIZED\nTHREE ACCUSED ARE ARRESTED",
+  "headlineLayout": {
+    "visibleLines": 3,
+    "wordsPerLine": [4, 4, 4],
+    "line1Color": "#ffffff",
+    "line2Color": "#000000",
+    "line3Color": "#000000",
+    "line1Highlight": "#c42222",
+    "qaCorrection": "Changed NARCOTICS to DRUG after the first export wrapped line 1 into a fourth visible line."
+  },
+  "sourceVideo": {
+    "filename": "tatva_malda_narcotics_2084304231004270705.mp4",
+    "infoFilename": "source_original.info.json",
+    "sizeBytes": 5025406,
+    "durationSeconds": 26.401,
+    "widthPx": 720,
+    "heightPx": 1280,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "canva": {
+    "projectUrl": "https://www.canva.com/design/DAHRTjT-3vU/pJffEMM8dyl6aSAnXY-2uw/edit",
+    "shortcutFirst": true,
+    "neverCrop": true,
+    "ratioLocked": false,
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "xPx": 0,
+    "yPx": 317,
+    "rotateDegrees": 0,
+    "mediaImmediatelyAboveBackground": true,
+    "date": "04 AUG",
+    "headlineApplied": true,
+    "redHighlightBehindLine1": true,
+    "exportVerified": true
+  },
+  "finalExport": {
+    "filename": "final_tezscroll_malda_narcotics_bust_2026-08-04.mp4",
+    "localPath": "C:/Users/User/Downloads/TezScroll News/2026-08-04/Malda Narcotics Bust/final_tezscroll_malda_narcotics_bust_2026-08-04.mp4",
+    "sizeBytes": 22981280,
+    "durationSeconds": 26.411,
+    "widthPx": 1080,
+    "heightPx": 1350,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "verified": true
+  },
+  "caption": "A joint police operation in Malda, West Bengal, has reportedly busted a cross-border narcotics network. The operation led to the seizure of ₹2.4 crore in cash, thousands of cough syrup bottles valued at about ₹90 lakh, and 20 grams of gold.\n\nThree accused have been arrested, according to the initial report. Authorities are expected to continue investigating the suspected network and the origin of the seized cash and goods.\n\nFAIR USE: Copyright Disclaimer under Section 107 of the Copyright Act, 1976. Allowance is made for fair use for purposes such as criticism, comment, news reporting, teaching, scholarship and research. We do not claim ownership of the content featured in this post.\n\nDisclaimer: This page shares publicly available content for informational and awareness purposes only.\n\nInformation is based on publicly available reports at the time of posting. All rights belong to their respective owners.\n\n#Malda #WestBengal #DrugBust #TezScroll",
+  "trello": {
+    "title": "Malda drug network bust | TezScroll",
+    "cardUrl": "https://trello.com/c/vSr3GkgP/1570-malda-drug-network-bust-tezscroll",
+    "initialList": "On Posting",
+    "finalList": "Completed",
+    "complete": true,
+    "labels": ["Post", "TezScroll"],
+    "member": "FluxPedia (fluxpedia1)",
+    "dueDate": "2026-08-04",
+    "attachment": "final_tezscroll_malda_narcotics_bust_2026-08-04.mp4",
+    "descriptionVerified": true
+  },
+  "publishing": {
+    "status": "published-and-verified",
+    "tool": "Meta Business Suite",
+    "contentId": "122118561921286740",
+    "contentType": "Reel",
+    "crossposted": true,
+    "destinations": ["TezScroll (Facebook)", "tezscroll (Instagram)"],
+    "publishedAt": "2026-08-04T11:57:00+05:30",
+    "publishedDurationDisplay": "0:27",
+    "verificationUrl": "https://business.facebook.com/latest/posts/published_posts/?business_id=910102451435392&asset_id=1019400671252252",
+    "captionMatched": true
+  },
+  "x": {
+    "account": "@TezScroll",
+    "caption": "Malda police reportedly busted a cross-border narcotics network, seizing ₹2.4 crore cash, cough syrup bottles worth ₹90 lakh and 20g gold. Three accused were arrested. Investigation continues. #Malda #WestBengal #TezScroll",
+    "characterCount": 222,
+    "mediaAttached": "final_tezscroll_malda_narcotics_bust_2026-08-04.mp4",
+    "postUrl": "https://x.com/TezScroll/status/2084528445867037088",
+    "publishedAt": "2026-08-04T13:18:00+05:30",
+    "verified": true
+  },
+  "workflowStatus": "complete",
+  "lesson": "Use shortcut-first Canva editing and unique source filenames containing the story and post ID; duplicate generic filenames can select an older Canva upload."
+}
