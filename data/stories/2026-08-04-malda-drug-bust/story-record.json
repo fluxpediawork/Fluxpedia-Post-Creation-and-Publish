@@ -85,6 +85,15 @@
     "verificationUrl": "https://business.facebook.com/latest/posts/published_posts/?business_id=910102451435392&asset_id=1019400671252252",
     "captionMatched": true
   },
+  "x": {
+    "account": "@TezScroll",
+    "caption": "Malda police reportedly busted a cross-border narcotics network, seizing ₹2.4 crore cash, cough syrup bottles worth ₹90 lakh and 20g gold. Three accused were arrested. Investigation continues. #Malda #WestBengal #TezScroll",
+    "characterCount": 222,
+    "mediaAttached": "final_tezscroll_malda_narcotics_bust_2026-08-04.mp4",
+    "postUrl": "https://x.com/TezScroll/status/2084528445867037088",
+    "publishedAt": "2026-08-04T13:18:00+05:30",
+    "verified": true
+  },
   "workflowStatus": "complete",
   "lesson": "Use shortcut-first Canva editing and unique source filenames containing the story and post ID; duplicate generic filenames can select an older Canva upload."
 }

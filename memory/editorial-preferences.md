@@ -61,3 +61,12 @@ This preference changes story selection, not the accuracy standard.
 - Use `Ctrl + S` after material changes. Never group or ungroup routine template elements.
 - Use buttons only where Canva does not provide a suitable shortcut, including selecting a local upload, choosing an exact layer, entering exact numeric dimensions, and downloading the export.
 - Give each uploaded source media file a unique story-and-post-ID filename. Never reuse a generic name such as `source_original.mp4` in Canva because duplicate asset names can select an older upload.
+
+## X publishing
+
+- Publish every completed TezScroll post to `@TezScroll` on X as a required final destination.
+- Write a separate X caption that fits the platform character limit; do not reuse an overlength Facebook or Instagram caption.
+- Keep the X caption concise: include only the essential verified or carefully attributed facts and two to four relevant hashtags.
+- Omit the long fair-use disclaimer, public-content disclaimer, rights note, source-credit paragraph, and contact-for-removal language from X captions.
+- When the post requires media, never publish it as text-only. Confirm that the correct image or video is attached and fully processed before selecting Post.
+- After publishing, verify the live X status URL and store the exact caption, character count, account, publication time, and URL in the story record.
